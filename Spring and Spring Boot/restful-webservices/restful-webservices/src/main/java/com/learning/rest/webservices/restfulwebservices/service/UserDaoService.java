@@ -13,6 +13,7 @@ import com.learning.rest.webservices.restfulwebservices.model.User;
 public class UserDaoService {
 	private static List<User> users = new ArrayList<>();
 	private static int userCount = 0;
+
 	static {
 		users.add(new User(++userCount, "Tulsi", LocalDate.now().minusYears(30)));
 		users.add(new User(++userCount, "Raunit", LocalDate.now().minusYears(20)));

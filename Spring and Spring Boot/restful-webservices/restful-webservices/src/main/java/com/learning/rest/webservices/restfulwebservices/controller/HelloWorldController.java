@@ -23,9 +23,14 @@ public class HelloWorldController {
 		return "Hello Rest API World!!";
 	}
 
+	@GetMapping(path = "/basicAuth")
+	public String basicAuth() {
+		return "Success";
+	}
+
 	@GetMapping(path = "/hello-world-bean")
 	public HelloWorld helloWorldBean() {
-		return new HelloWorld("Hello Rest API World!!");
+		return new HelloWorld("Hello Rest API World from Bean!!");
 	}
 
 	@GetMapping(path = "/hello/path-variable/{name}")
