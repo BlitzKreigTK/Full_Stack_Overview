@@ -1,4 +1,4 @@
-# Master_Spring_Framework
+# Full_Stack_Overview
 
 This repository contains below mentioned related notes and Practices.
 1. ReactJS (Basics, JWT, Validation)
