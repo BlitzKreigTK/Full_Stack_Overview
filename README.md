@@ -5,7 +5,7 @@ This repository contains below mentioned related notes and Practices.
 2. Spring framework (Basics, Validation, Web Auth)
 3. Spring Boot (Basics, Validation, Basic Auth, Spring Security, Spring AOP)
 4. Unit test and Mockito (Basics)
-5. Docker (Basics)
+5. Docker (Basics, Dockerfile, Spring Maven plugin)
 6. AWS (Basics)
 
 # Udemy_Learning
